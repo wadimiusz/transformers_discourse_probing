@@ -1,0 +1,10 @@
+nltk
+gensim
+tqdm
+torch
+prettytable
+joblib
+transformers
+numpy
+pandas
+scikit_learn
