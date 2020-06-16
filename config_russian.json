@@ -1,0 +1,168 @@
+{
+  "groups": {
+    "coherence": [
+      "background",
+      "elaboration",
+      "restatement",
+      "interpretation-evaluation"
+    ],
+    "casual-argumentative": {
+      "contrastive": [
+        "concession",
+        "contrast"
+      ],
+      "casual": [
+        "purpose",
+        "evidence",
+        "cause-effect"
+      ],
+      "condition": [
+        "condition"
+      ]
+    },
+    "structural": [
+      "sequence",
+      "joint",
+      "same-unit",
+      "comparison"
+    ],
+    "attribution": [
+      "attribution"
+    ]
+  },
+  "fasttext_path": "embeddings/russian/model.model",
+  "relations": [
+    "background",
+    "elaboration",
+    "restatement",
+    "interpretation-evaluation",
+    "concession",
+    "contrast",
+    "purpose",
+    "evidence",
+    "cause-effect",
+    "condition",
+    "attribution",
+    "sequence",
+    "joint",
+    "same-unit",
+    "comparison"
+  ],
+  "masks": {
+    "depth_2_classes": [
+      "full_sentence"
+    ],
+    "depth_5_classes": [
+      "full_sentence"
+    ],
+    "depth_10_classes": [
+      "full_sentence"
+    ],
+    "background_binary": [
+      "full_sentence"
+    ],
+    "elaboration_binary": [
+      "full_sentence"
+    ],
+    "restatement_binary": [
+      "full_sentence"
+    ],
+    "interpretation-evaluation_binary": [
+      "full_sentence"
+    ],
+    "concession_binary": [
+      "full_sentence"
+    ],
+    "contrast_binary": [
+      "full_sentence"
+    ],
+    "purpose_binary": [
+      "full_sentence"
+    ],
+    "evidence_binary": [
+      "full_sentence"
+    ],
+    "cause-effect_binary": [
+      "full_sentence"
+    ],
+    "condition_binary": [
+      "full_sentence"
+    ],
+    "attribution_binary": [
+      "full_sentence"
+    ],
+    "coherence_internal": [
+      "coherence_internal"
+    ],
+    "sequence_binary": [
+      "full_sentence"
+    ],
+    "joint_binary": [
+      "full_sentence"
+    ],
+    "same-unit_binary": [
+      "full_sentence"
+    ],
+    "comparison_binary": [
+      "full_sentence"
+    ],
+    "casual-argumentative_internal": [
+      "casual-argumentative_internal"
+    ],
+    "contrastive_internal": [
+      "contrastive_internal"
+    ],
+    "casual_internal": [
+      "casual_internal"
+    ],
+    "structural_internal": [
+      "structural_internal"
+    ],
+    "coherence_group_binary": [
+      "full_sentence"
+    ],
+    "casual-argumentative_group_binary": [
+      "full_sentence"
+    ],
+    "contrastive_group_binary": [
+      "full_sentence"
+    ],
+    "casual_group_binary": [
+      "full_sentence"
+    ],
+    "structural_group_binary": [
+      "full_sentence"
+    ]
+  },
+  "groups_classification": {
+    "coherence": [
+      "background",
+      "elaboration",
+      "restatement",
+      "interpretation-evaluation"
+    ],
+    "casual-argumentative": [
+      "concession",
+      "contrast",
+      "purpose",
+      "evidence",
+      "cause-effect",
+      "condition"
+    ],
+    "contrastive": [
+      "concession",
+      "contrast"
+    ],
+    "casual": [
+      "purpose",
+      "evidence",
+      "cause-effect"
+    ],
+    "structural": [
+      "sequence",
+      "joint",
+      "same-unit",
+      "comparison"
+    ]
+  }
+}

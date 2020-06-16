@@ -1,0 +1,115 @@
+{
+  "reltypes": [
+    "elaboration",
+    "attribution",
+    "list",
+    "purpose",
+    "circumstance",
+    "explanation",
+    "antithesis",
+    "example",
+    "comparison",
+    "consequence",
+    "contrast",
+    "concession",
+    "condition",
+    "temporal",
+    "reason",
+    "evidence",
+    "evaluation",
+    "comment"
+  ],
+  "groups_to_reltypes": {
+    "attribution": [
+      "attribution",
+      "attribution-negative"
+    ],
+    "background": [
+      "background",
+      "circumstance"
+    ],
+    "cause": [
+      "cause",
+      "result",
+      "consequence"
+    ],
+    "comparison": [
+      "comparison",
+      "preference",
+      "analogy",
+      "proportion"
+    ],
+    "condition": [
+      "condition",
+      "hypothetical",
+      "contingency",
+      "otherwise"
+    ],
+    "contrast": [
+      "contrast",
+      "concession",
+      "antithesis"
+    ],
+    "elaboration": [
+      "elaboration-additional",
+      "elaboration-general-specific",
+      "elaboration-part-whole",
+      "elaboration-process-step",
+      "elaboration-object-attribute",
+      "elaboration-set-member",
+      "example",
+      "definition"
+    ],
+    "enablement": [
+      "purpose",
+      "enablement"
+    ],
+    "evaluation": [
+      "evaluation",
+      "interpretation",
+      "conclusion",
+      "comment"
+    ],
+    "explanation": [
+      "evidence",
+      "explanation-argumentative",
+      "reason"
+    ],
+    "joint": [
+      "list",
+      "disjunction"
+    ],
+    "manner-means": [
+      "manner",
+      "means"
+    ],
+    "topic-comment": [
+      "problem-solution",
+      "question-answer",
+      "statement-response",
+      "topic-comment",
+      "comment-topic",
+      "rhetorical-question"
+    ],
+    "summary": [
+      "summary",
+      "restatement"
+    ],
+    "temporal": [
+      "temporal-before",
+      "temporal-after",
+      "temporal-same-time",
+      "sequence",
+      "inverted-sequence"
+    ],
+    "topic_change": [
+      "topic-shift",
+      "topic-drift"
+    ],
+    "structural": [
+      "span",
+      "same-unit",
+      "textualorganization"
+    ]
+  }
+}
